@@ -1,0 +1,502 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
+/*****************************************************\
+Theme Name: 150Pizzas
+Theme URI: http://www.150pizzas.com
+Description: 150 Pizzas & Delicateses
+Version: 1.0
+Author: Alexander Marcucci
+Author URI: http://www.twitter.com/AMarcucciS
+\*****************************************************/
+
+body {
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	height:620px;
+	overflow-x:hidden;
+	z-index:1;
+}
+
+h2 {
+	font-family: Franklin Gothic Demi Cond,'Fjalla One', sans-serif;
+	color:#000;
+	font-size:25px;
+	font-weight:400;
+	padding:0;
+	line-height:22px;
+	margin:0;
+}
+
+.titulo {
+	font-family: Franklin Gothic Demi Cond,'Fjalla One', sans-serif;
+	color:#000;
+	font-size:36px;
+	font-weight:400;
+	padding:0;
+	line-height:22px;
+	margin:0;
+	text-decoration:none;
+}
+
+h3 {
+	font-family: 'Archivo Narrow', sans-serif;
+	color:#000;
+	font-size:14px;
+	font-weight: 400;
+	padding-left:20px;
+	margin:0;
+}
+
+.titulo:hover {
+	color:#f8901f;
+	transition-property:background, color;
+	transition:ease-out 0.4s;
+	transition-delay:0s;
+	-webkit-transition-property:background, color;
+	-webkit-transition:ease-out 0.4s;
+	-webkit-transition-delay:0s;
+	-moz-transition-property:background, color;
+	-moz-transition:ease-out 0.4s;
+	-moz-transition-delay:0s;
+	font-size: 36px;
+	text-decoration:none;
+}
+
+#nohover:hover {
+	color:#000;
+}
+
+.tam1 {
+	font-size: 38px;
+}
+
+.tam2 {
+	font-size: 32px;
+}
+
+.tam3 {
+	font-size: 25px;
+}
+
+.tam4 {
+	font-size: 20px;
+}
+
+.tam5 {
+	font-size: 12px;
+}
+
+h4 {
+	font-family: Franklin Gothic Demi Cond,'Fjalla One', sans-serif;
+	color:#000;
+	font-size:22px;
+	font-weight: lighter;
+	text-align:right;
+	padding:0;
+	margin-bottom:-10px;
+}
+
+p {
+	padding:0;
+	margin:0;
+	text-indent:25px;
+}
+
+/******************************************************* Cabecera */
+
+#cabecera {
+	width:950px;
+	height:185px;
+	margin:0 auto;
+	position:relative;
+	background:none;
+}
+
+#logo {
+	background:no-repeat left top;
+	width:200px;
+	height:185px;
+	border:none;
+	margin:100px 0 0 5px;
+	position:absolute;
+	z-index:5;
+}
+
+#menu {
+    width:100%;
+	height:40px;
+	background:none;
+	margin:0 auto;
+	position:absolute;
+	top:140px;
+	left:220px;
+	z-index:5;
+}
+
+#menu ul, li {
+        list-style-type: none;
+}
+
+#menu ul {
+   	    margin:0 auto;
+        padding: 0;
+		width:950px;
+}
+
+#menu li {
+		float:left;
+		position:relative;
+		display:block;
+}
+
+#menu a {
+        text-decoration: none;
+        color: #fff;
+		font-weight: normal;
+        background:#f8901f;
+        display: block;
+        padding:8px 20px 0 20px;
+        text-align: center;
+		font-size:14px;
+		height:28px;
+        border:none;
+		transition-property:background, color;
+	transition:ease-out 0.4s;
+	transition-delay:0s;
+	-webkit-transition-property:background, color;
+	-webkit-transition:ease-out 0.4s;
+	-webkit-transition-delay:0s;
+	-moz-transition-property:background, color;
+	-moz-transition:ease-out 0.4s;
+	-moz-transition-delay:0s;
+}
+
+
+#menu #activo {
+		transition:ease-out 0.4s;
+		background: #ff6000;
+		color:#f4f4f4;
+		text-shadow:none;
+	transition-delay:0s;
+	-webkit-transition-property:background, color;
+	-webkit-transition:ease-out 0.4s;
+	-webkit-transition-delay:0s;
+	-moz-transition-property:background, color;
+	-moz-transition:ease-out 0.4s;
+	-moz-transition-delay:0s;
+	text-shadow: 0px 0px 8px #000;
+	-moz-text-shadow: 0px 0px 8px #000;
+	-o-text-shadow: 0px 0px 8px #000;
+	-webkit-text-shadow: 0px 0px 8px #000;
+}	
+
+#menu a:hover {
+	background: #ff6000;
+	color:#fff;
+	transition-property:background, color;
+	transition:ease-out 0.4s;
+	transition-delay:0s;
+	-webkit-transition-property:background, color;
+	-webkit-transition:ease-out 0.4s;
+	-webkit-transition-delay:0s;
+	-moz-transition-property:background, color;
+	-moz-transition:ease-out 0.4s;
+	-moz-transition-delay:0s;
+	text-shadow: 0px 0px 8px #000;
+	-moz-text-shadow: 0px 0px 8px #000;
+	-o-text-shadow: 0px 0px 8px #000;
+	-webkit-text-shadow: 0px 0px 8px #000;
+	font-size: 14px;
+}
+
+#fb-boton {
+	top: 124px;
+	right: 40px;
+
+}
+
+#tw-boton {
+	top: 124px;
+	right: 75px;
+	
+}
+
+#tw-boton, #fb-boton {
+	background: none;
+	width: 30px;
+	height: 30px;
+	display: block;
+	z-index:4;
+	position: absolute;
+	margin:0 auto;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	transition:all ease-in-out 0.4s;
+	-webkit-transition:all ease-in-out 0.4s;
+	-moz-transition:all ease-in-out 0.4s;
+	-o-transition:all ease-in-out 0.4s;
+}
+
+#tw-boton:hover, #fb-boton:hover {
+	top:110px;
+	transition:all ease-in-out 0.4s;
+	-webkit-transition:all ease-in-out 0.4s;
+	-moz-transition:all ease-in-out 0.4s;
+	-o-transition:all ease-in-out 0.4s;
+	opacity:1;
+	-moz-opacity:1;
+	-o-opacity:1;
+	-webkit-opacity:1;
+	filter:alpha(opacity=100);
+}
+
+
+/************************************************** Contenido */
+
+#pagina {
+	width: 697px;;
+	height: 470px;
+	margin: 0 auto;
+	top:30px;
+	left:92px;
+	position: relative;
+	background: none;
+	z-index:2;
+}
+
+[contenido],[contenido_T]{
+	top:0px;
+	right:5px;
+	text-decoration:none;
+	color:#000;
+  	display: none;
+	text-align: justify;
+	font-size:14px;
+	position:absolute;
+	width:360px;
+	line-height:14px;
+	transition:opacity 0.5s;
+	-moz-transition:opacity 0.5s;
+	-webkit-transition:opacity 0.5s;
+	-o-transition:opacity 0.5s;
+}
+
+[contenido_T] {
+	display:block;
+	text-align:right;
+}
+
+[contenido_T] span {
+	cursor:pointer;
+}
+
+.izq {
+	top:225px;
+	right:378px;
+	text-decoration:none;
+	color:#000;
+	text-align: justify;
+	position: absolute;
+	font-size:14px;
+	width:280px;
+	line-height:14px;
+}
+
+#menu_bar {
+	background: url(../img/barra_menu.png) no-repeat;
+	background-position: 2px 25px;
+	top:-370px;
+	left:-365px;
+	padding:0;
+	margin:0 auto;
+	position: relative;
+	width:145px;
+	height:460px;
+	z-index:5;
+}
+
+#menu_bar a h2, #menu_bar a h3, #menu_bar a {
+	text-decoration:none;
+	color:#000;
+}
+
+#menu_bar a h2:hover, #menu_bar a h3:hover {
+	text-decoration:none;
+	background:none;
+	color:#f8901f;
+	transition-property:background, color;
+	transition:ease-out 0.2s;
+	transition-delay:0s;
+	-webkit-transition-property:background, color;
+	-webkit-transition:ease-out 0.2s;
+	-webkit-transition-delay:0s;
+	-moz-transition-property:background, color;
+	-moz-transition:ease-out 0.2s;
+	-moz-transition-delay:0s;
+}
+
+#menu_bar a#active h2 , #menu_bar a#active h3, #menu_bar .active {
+	color:#f8901f;
+	text-decoration:none;
+}
+
+/** galeria **/
+#galeria {
+	display: block;
+	padding: 0;
+	position: relative;
+	width: 702px;
+	height: 470px;
+	list-style: none;
+	overflow: hidden;
+	left:0px;
+}
+
+#galeria li {
+	position: absolute;
+	top:0px;
+	width: 702px;
+}
+
+#galeria li img {
+	width: 702px;
+	height: 470px;
+}
+
+#galeria .selected {
+	z-index: 1;
+	opacity: 1;
+	filter: alpha(opacity = 100);
+	-moz-transition: all 2s ease 0.2s;
+	-ms-transition: all 2s ease 0.2s;
+	-o-transition: all 2s ease 0.2s;
+	-webkit-transition: all 2s ease 0.2s;
+	transition: all 2s ease 0.2s;
+}
+
+#galeria .noselected {
+	z-index: 0;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	-moz-transition: all 2s ease 0s;
+	-ms-transition: all 2s ease 0s;
+	-o-transition: all 2s ease 0s;
+	-webkit-transition: all 2s ease 0s;
+	transition: all 2s ease 0s;
+}
+
+#galleria {
+	height:470px;
+}
+
+.botonform {
+	background:#f8901f;
+	border-radius:4px;
+	cursor:pointer;
+	border:none;
+	padding:4px 8px;
+	color:#333;
+	text-shadow:0px 1px 0px #F2F2F2;
+	-moz-text-shadow:0px 1px 0px #F2F2F2;
+	-o-text-shadow:0px 1px 0px #F2F2F2;
+	-webkit-text-shadow:0px 1px 0px #F2F2F2;
+	box-shadow:0px 0px 6px #333;
+	-moz-box-shadow:0px 0px 6px #333;
+	-o-box-shadow:0px 0px 6px #333;
+	-webkit-box-shadow:0px 0px 6px #333;
+}
+
+.botonform:hover {
+	background:#ff6000;
+}
+
+.cajas-de-texto {
+	border: none;
+	background:#FBC899;
+}
+
+.cajas-de-texto:hover {
+	border: none;
+	background:#FDEBD9;
+}
+
+.cajas-de-texto:focus {
+	border:none;
+	background:#FDEBD9;
+	box-shadow:0px 0px 7px #595959;
+	-moz-box-shadow:0px 0px 7px #595959;
+	-o-box-shadow:0px 0px 7px #595959;
+	-webkit-box-shadow:0px 0px 7px #595959;
+}
+
+/************************************************** Pie */
+
+
+#pie {
+	width:910px;
+	height:15px;
+	top:450px;
+	position: absolute;
+	margin:0 auto;
+	padding:0;
+	background:url(../img/barra_pie.png) no-repeat left top;
+	text-align: center;
+}
+
+#legal {
+	margin:0 auto;
+	text-align: center;
+	position:relative;
+	font-size: 11px;
+	word-spacing:3px;
+	word-spacing:2px\9
+	color: #000;
+	top:5px;
+}
+
+#t1,#t2,#t3,#t4,#t5,#t6,#t7,#t8,#t9,#t10,#t11 {
+	font-family: Franklin Gothic Demi Cond,'Fjalla One', sans-serif;
+	color:#000;
+	font-size:36px;
+	font-weight:400;
+	padding:0;
+	line-height:22px;
+	margin:0;
+	text-decoration:none;
+}
+
+#t1:hover,#t2:hover,#t3:hover,#t4:hover,#t5:hover,#t6:hover,#t7:hover,#t8:hover,#t9:hover,#t10:hover,#t11:hover {
+	color:#f8901f;
+	transition-property:background, color;
+	transition:ease-out 0.4s;
+	transition-delay:0s;
+	-webkit-transition-property:background, color;
+	-webkit-transition:ease-out 0.4s;
+	-webkit-transition-delay:0s;
+	-moz-transition-property:background, color;
+	-moz-transition:ease-out 0.4s;
+	-moz-transition-delay:0s;
+	font-size: 36px;
+	text-decoration:none;
+}
+
+a.tam1, a.tam2, a.tam3, a.tam4, a.tam5 {
+	cursor:pointer
+}
+
+@-moz-document url-prefix() {
+  #menu_bar {
+	background-position: 2px 32px
+  }
+  
+  #fb-boton {
+	right: 45px;
+}
+
+#tw-boton {
+	right: 80px;	
+}
+}
